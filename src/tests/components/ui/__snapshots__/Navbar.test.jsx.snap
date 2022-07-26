@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <Navbar2 /> Debe de mostrar correctamente 1`] = `
+Array [
+  " // poner el valor initial en este caso la pagina de raiz",
+  <nav
+    className="navbar navbar-expand-sm navbar-dark bg-dark fixed-top"
+  >
+    <a
+      aria-current="page"
+      className="nav-item nav-link active "
+      href="/"
+      onClick={[Function]}
+    >
+      Héroes
+    </a>
+    <button
+      aria-controls="respomsive-navbar-nav"
+      aria-label="Toggle navigation"
+      className="navbar-toggler collapsed"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      aria-expanded={null}
+      className="navbar-collapse collapse"
+    >
+      <div
+        className="navbar-nav"
+        onKeyDown={[Function]}
+      >
+        <a
+          className="nav-item nav-link"
+          href="/marvel"
+          onClick={[Function]}
+        >
+          Marvel
+        </a>
+        <a
+          className="nav-item nav-link"
+          href="/dc"
+          onClick={[Function]}
+        >
+          DC
+        </a>
+        <a
+          className="nav-item nav-link"
+          href="/search"
+          onClick={[Function]}
+        >
+          Search
+        </a>
+      </div>
+    </div>
+    <span
+      className="text-info"
+    >
+      Pedro
+    </span>
+    <button1
+      className="nav-item nav-link btn"
+      onClick={[Function]}
+    >
+      Logout
+    </button1>
+  </nav>,
+]
+`;
